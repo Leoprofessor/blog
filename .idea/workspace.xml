@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d902e2-c598-4a42-ad9e-8ec31825295e" name="Changes" comment="" />
+    <list default="true" id="34d902e2-c598-4a42-ad9e-8ec31825295e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/menuAdm.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/menuAdm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/verifica_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/verifica_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login/cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/cadastro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -25,6 +37,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22IkYq9nwAtOHwcssfB6cHN4BqK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,6 +68,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\leopr\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34d902e2-c598-4a42-ad9e-8ec31825295e" name="Changes" comment="" />
@@ -63,11 +79,24 @@
       <option name="presentableId" value="Default" />
       <updated>1639532541232</updated>
       <workItem from="1639532542717" duration="4060000" />
-      <workItem from="1639578811908" duration="28286000" />
+      <workItem from="1639578811908" duration="69067000" />
+      <workItem from="1639675519749" duration="2793000" />
     </task>
+    <task id="LOCAL-00001" summary="versao 1">
+      <created>1639619444220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639619444220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="versao 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="versao 1" />
   </component>
 </project>

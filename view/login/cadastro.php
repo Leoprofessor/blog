@@ -10,30 +10,33 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistema de Blog</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>BLOG DO LÉO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 
 <body>
-    <section class="hero is-success is-fullheight">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="column is-4 is-offset-4">
+
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.png" class="img-fluid"
+                         alt="Sample image">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                     <h3 class="title has-text-grey">Cadastro de usuário</h3>
 
                     <?php
                     if(isset($_SESSION['status_cadastro'])):
-                    ?>
-                    <div class="notification is-success">
-                  
-                      <p>Cadastro efetuado!</p>
-                    
-                      <p>Faça login informando o seu usuário e senha <a href="login.php">aqui</a></p>
-                    
-                    
-                    </div>
+                        ?>
+                        <div class="notification is-success">
+
+                            <p>Cadastro efetuado!</p>
+
+                            <p>Faça login informando o seu usuário e senha <a href="login.php">aqui</a></p>
+
+
+                        </div>
 
                     <?php
                     endif;
@@ -44,42 +47,60 @@ session_start();
 
                     <?php
                     if(isset($_SESSION['usuario_existe'])) :
-                    ?>
-                    <div class="notification is-info">
-                        <p>O usuário escolhido já existe. Informe outro e tente novamente.</p>
-                    </div>
+                        ?>
+                        <div class="notification is-info">
+                            <p>O usuário escolhido já existe. Informe outro e tente novamente.</p>
+                        </div>
                     <?php
                     endif;
                     unset($_SESSION['usuario_existe']);
                     ?>
-                    <div class="box">
-                        <form action="cadastrar.php" method="POST">
-                            <div class="field">
-                                <div class="control">
-                                    <input name="usuario" type="text" class="input is-large" placeholder="Usuário" required>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <div class="control">
-                                    <select name="nivel" id="nivel" class="control" required >
-                                        <option value=""  >Nível</option>
-                                        <option value="Administrador">Administrador</option>
-                                        <option value="Visitante">Visitante</option>
-                                    </select>
-<!--                                    <input name="nivel" type="text" class="input is-large" placeholder="Nivel" autofocus>-->
-                                </div>
-                            </div>
+                    <form action="cadastrar.php" method="POST">
 
-                            <div class="field">
-                                <div class="control">
-                                    <input name="senha" class="input is-large" type="password" placeholder="Senha" required>
-                                </div>
-                            </div>
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
-                        </form>
-                    </div>
+
+
+                        <!-- usuário input -->
+                        <div class="form-outline mb-4">
+                            <input name="usuario" type="text" class="form-control form-control-lg" placeholder="Usuário" required>
+                            <label class="form-label" for="form3Example3">Usuário</label>
+                        </div>
+
+                        <!-- nível input -->
+                        <div class="form-outline mb-3">
+                            <select name="nivel" id="nivel" class="form-control form-control-lg" required >
+                                <option value=""  >Nível</option>
+                                <option value="Administrador">Administrador</option>
+                                <option value="Visitante">Visitante</option>
+                            </select>
+                            <label class="form-label" for="form3Example4">Nível</label>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-3">
+
+                            <input name="senha" class="form-control form-control-lg" type="password" placeholder="Senha" required>
+                            <label class="form-label" for="form3Example4">Password</label>
+                        </div>
+
+
+
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="submit" class="btn btn-primary btn-lg"
+                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Cadastrar</button>
+
+
+                    </form>
                 </div>
             </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+            <!-- Copyright -->
+            <div class="text-white mb-3 mb-md-0">
+                Copyright © 2021. All rights reserved.
+            </div>
+            <!-- Copyright -->
+
+
         </div>
     </section>
 </body>

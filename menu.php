@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include('Controller/verifica_login.php');
 
 
@@ -8,7 +8,7 @@ include('Controller/verifica_login.php');
 <div class="container">
      <div class="pos-f-t fixed-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.php">BLOG</a>
+        <a class="navbar-brand" href="index.php"><span class="sr-only">(current)</span>BLOG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +24,7 @@ include('Controller/verifica_login.php');
                 <a class="nav-link" href="post.php">Página de post</a>
               </li>
                 <?php
-               if($_SESSION['nivel'] == 'Administrador'){
+              // if($_SESSION['nivel'] == 'Administrador'){
 
 
 
@@ -36,7 +36,7 @@ include('Controller/verifica_login.php');
               </li>
 
                 <?php
-               }
+              // }
 
                 ?>
                 <li class="nav-item">

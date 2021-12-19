@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include('../Controller/verifica_login.php');
 
 
@@ -23,14 +23,14 @@ include('../Controller/verifica_login.php');
                         <a class="nav-link" href="./../post.php">Página de post</a>
                     </li>
                     <?php
-                    if($_SESSION['nivel'] == 'Administrador'){
+                //    if($_SESSION['nivel'] == 'Administrador'){
                      ?>
                         <li class="nav-item">
                             <a class="nav-link" href="./../App/montador.php">Administração</a>
                         </li>
 
                         <?php
-                    }
+                  //  }
 
                     ?>
                     <li class="nav-item">

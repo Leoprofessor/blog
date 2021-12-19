@@ -4,10 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Projeto emprego">
+    <meta name="keywords" content="o">
     <meta name="author" content="Leo">
     <meta name="description" content="Páginal Inicial de Apresentação">
-    <title>SISTEMA DE BLOG</title>
+    <title>BLOG DO LÉO</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
@@ -23,8 +23,8 @@
 		<br><br><br>
 			<div class="card">
 			  <div class="card-body">
-			    <H2 class="display-4"> SISTEMA DE BLOG</H2>
-			    <H3 class="lead">Desenvolvido por Leo</H3>
+			    <H2 class="display-4">BLOG DO LÉO</H2>
+
 			  </div>
 			</div>
 		</section>
